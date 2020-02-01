@@ -1,0 +1,14 @@
+[Unit]
+Description=ghost-contact-svc microservice
+After=network.target
+StartLimitIntervalSec=0
+
+[Service]
+Type=simple
+Restart=always
+RestartSec=1
+User=joe
+ExecStart=/usr/bin/env node /home/joe/ghost-contact-form/ghost-contact-svc.js
+
+[Install]
+WantedBy=multi-user.target

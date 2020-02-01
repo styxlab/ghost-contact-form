@@ -1,0 +1,13 @@
+<form id="contact-form" method="post" data-format="inline">
+    <input type="text" id="name" placeholder="Name" pattern=".{2,30}" required>
+    <input type="email" id="email" placeholder="Your email address" required>
+    <select id="subject" pattern=".{1,20}" required>
+        <option value="" disabled selected>Pick one subject...</option>
+        <option value="comment">I want to leave a comment</option>
+        <option value="contribution">I want to contribute</option>
+    </select>
+    <textarea rows="5" id="message" placeholder="Message" pattern=".{10,4000}" required></textarea>
+    <input type="text" name="_norobots" style="display:none !important;">
+    <button class="btn" type="submit" id="submit" value="Send" onclick="formProcessor.process();return false;">Send</button>
+    <span id="responsemsg"></span>
+</form>
