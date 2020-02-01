@@ -34,6 +34,4 @@ $ node ghost-contact-svc.js
 
 ## Test Locally
 
-```
-$ [http://localhost:7000/v1/demo](http://localhost:7000/v1/demo)
-```
+[http://localhost:7000/v1/demo](http://localhost:7000/v1/demo)
