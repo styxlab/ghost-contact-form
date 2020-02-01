@@ -35,5 +35,5 @@ $ node ghost-contact-svc.js
 ## Test Locally
 
 ```
-$ http://lcoalhost:7000/v1/demo
+$ http://localhost:7000/v1/demo
 ```

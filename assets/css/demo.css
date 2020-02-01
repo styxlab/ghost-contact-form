@@ -34,8 +34,7 @@ body {
 .header {
   position: fixed;
   top: 0;
-  left: 50%;
-  margin-left: -480px;
+  margin-left: 100px;
   background-color: #fff;
   border-bottom: 1px solid #ddd;
   padding-top: 10px;
