@@ -47,6 +47,7 @@ You should see the message `Listening on http://localhost:7000`.
 ## Deploy (More detailed info in the tutorial)
 
 - copy the work folder `ghost-contact-form` to your server
-- use a systemd unit to run `ghost-contact-svc.js` as a deamon
+- use `ghost-contact.service` as a starting point for running `ghost-contact-svc.js` as a systemd deamon
 - configure your webserver to map endpoint `http://localhost:7000/` to a public endpoint, e.g. `https://api.your-blog.com/`
 - Use the files in folder `ghost-admin` to configure your front-end
+- Other front-end config files upon request!
