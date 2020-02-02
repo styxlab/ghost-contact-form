@@ -1,6 +1,7 @@
 # ghost-contact-form
 Add a beautiful, fully functional contact form to your Ghost blog or website without paying for external services.
-Not running on Ghost? This solution also works with Gatsby, Hugo, Hexo, Nuxt and any other static site geberator.
+
+*Not running on Ghost?* This solution also works with Gatsby, Hugo, Hexo, Nuxt and any other static site generator.
 
 ## Tutorial
 - [Contact Forms in Ghost](https://atmolabs.org/contact-forms-in-ghost/)
