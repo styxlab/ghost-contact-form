@@ -31,11 +31,14 @@ EMAIL_FROM = noreply@your-blog.com
 EMAIL_TO = your@email.com
 ```
 
+Additionally, you can add a port vairable `PORT = `, if you want to change thedefault port `7000` to something else.
+
 ## Usage
 
 ```
 $ node ghost-contact-svc.js
 ```
+You should see the message `Listening on http://localhost:7000`. 
 
 ## Test Locally
 
@@ -47,5 +50,3 @@ $ node ghost-contact-svc.js
 - use a systemd unit to run `ghost-contact-svc.js` as a deamon
 - configure your webserver to map endpoint `http://localhost:7000/` to a public endpoint, e.g. `https://api.your-blog.com/`
 - Use the files in folder `ghost-admin` to configure your front-end
-
-- 
