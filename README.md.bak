@@ -31,7 +31,7 @@ EMAIL_FROM = noreply@your-blog.com
 EMAIL_TO = your@email.com
 ```
 
-Additionally, you can add a port variable `PORT = `, if you want to change the default port `7000` to something else.
+Additionally, you can add a port vairable `PORT = `, if you want to change thedefault port `7000` to something else.
 
 ## Usage
 
@@ -47,7 +47,7 @@ You should see the message `Listening on http://localhost:7000`.
 ## Deploy (More detailed info in the tutorial)
 
 - copy the work folder `ghost-contact-form` to your server
-- use `ghost-contact.service` as a starting point for running `ghost-contact-svc.js` as a systemd daemon
-- configure your web-server to map endpoint `http://localhost:7000/` to a public endpoint, e.g. `https://api.your-blog.com/`
+- use `ghost-contact.service` as a starting point for running `ghost-contact-svc.js` as a systemd deamon
+- configure your webserver to map endpoint `http://localhost:7000/` to a public endpoint, e.g. `https://api.your-blog.com/`
 - Use the files in folder `ghost-admin` to configure your Ghost front-end
-- Other front-end configuration files upon request!
+- Other front-end config files upon request!
